@@ -1,0 +1,12 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Myapp\\" : "src/",
+            "Myapp\\Classes\\" : "src/classes",
+            "Myapp\\Interfaces\\" : "src/interfaces"
+        }
+    }
+}
