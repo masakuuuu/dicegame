@@ -1,18 +1,16 @@
 <?php
-include_once("./src/DiceInterface.php");
-include_once("./src/Dice.php");
-include_once("./src/DummyDice.php");
-include_once("./src/DiceGameChecker.php");
 
 use PHPUnit\Framework\TestCase;
+use Myapp\Classes\DummyDice;
+use Myapp\Classes\Dice;
 
 class DiceTest extends TestCase
 {
     protected Dice $dice;
 
     protected function setUp() :void{
-        //$this->dice = new Dice();
-        $this->dice = new DummyDice();
+        $this->dice = new Dice();
+        // $this->dice = new DummyDice();
     }
 
     public function testInstanceOf() {
@@ -43,7 +41,6 @@ class DiceTest extends TestCase
     public function testRoll($dice){
         $dice->roll();
         $this->assertTrue(1 <= $dice->getNumber() && 6 >= $dice->getNumber());
-        // $this->assertTrue(6 >= $dice->getNumber());
     }
 }
 

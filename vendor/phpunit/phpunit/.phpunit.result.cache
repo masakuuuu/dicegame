@@ -1,1 +1,1 @@
-{"version":1,"defects":{"DiceTest::testInstanceOf":4,"DiceTest::testEmpty":4,"DiceTest::testSided":4,"DiceTest::testRoll":1},"times":{"DiceTest::testInstanceOf":0.005,"DiceTest::testEmpty":0,"DiceTest::testSided":0,"DiceTest::testRoll":0}}
+{"version":1,"defects":{"DiceTest::testInstanceOf":4,"DiceTest::testEmpty":4,"DiceTest::testSided":3,"DiceTest::testRoll":1},"times":{"DiceTest::testInstanceOf":0.004,"DiceTest::testEmpty":0,"DiceTest::testSided":0.001,"DiceTest::testRoll":0}}
