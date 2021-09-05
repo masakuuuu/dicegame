@@ -19,15 +19,6 @@ class DiceGameChecker implements CheckerInterface
     }
 
     public function check() :int{
-        // 引き分け
-        if ($this->firstDiceNumber === $this->secondDiceNumber){
-            return 0;
-        }
-
-        if ($this->firstDiceNumber > $this->secondDiceNumber){
-            return 1;
-        } else {
-            return 2;
-        }
+        return $this->firstDiceNumber <=> $this->secondDiceNumber;
     }
 }

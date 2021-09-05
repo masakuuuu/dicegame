@@ -4,9 +4,6 @@ namespace Myapp\Classes;
 
 use Myapp\Interfaces\DiceInterface as DiceInterface;
 
-// require_once "../vendor/autoload.php";
-// include_once("DiceInterface.php");
-
 class Dice implements DiceInterface {
     protected array $sided;
     protected int $number;

@@ -5,9 +5,6 @@ namespace Myapp\classes;
 use Myapp\Interfaces\DiceInterface;
 use Myapp\Classes\Dice;
 
-// include_once("Dice.php");
-// include_once("DiceInterface.php");
-
 class DummyDice extends Dice implements DiceInterface
 {
     public function __construct(){
